@@ -1,0 +1,4 @@
+#menu { display:none; }
+nav { display:flex; flex-direction:row; width:auto; gap:1.5rem; }
+nav a { padding:0.5rem 0.75rem; }
+.gallery { grid-template-columns: repeat(3, 1fr); }
