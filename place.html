@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nigeria | Place Page</title>
+  <meta name="description" content="A page about Nigeria, its culture, and current weather conditions." />
+  <link rel="stylesheet" href="styles/place.css" />
+  <script src="scripts/place.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Nigeria</h1>
+    <p class="tagline">Giant of Africa</p>
+  </header>
+
+  <main>
+    <section class="hero">
+      <picture>
+        <source media="(min-width: 700px)" srcset="https://images.unsplash.com/photo-1611348586804-61bf6c080437?w=1200" />
+        <img src="https://images.unsplash.com/photo-1611348586804-61bf6c080437?w=600" alt="Lagos skyline, Nigeria" />
+      </picture>
+    </section>
+
+    <section class="info">
+      <h2>About Nigeria</h2>
+      <p>
+        Nigeria is West Africa's most populous nation, known for its vibrant culture,
+        music, film industry (Nollywood), and rich diversity of over 250 ethnic groups
+        including the Yoruba, Igbo, and Hausa peoples.
+      </p>
+    </section>
+
+    <section class="weather">
+      <h2>Weather</h2>
+      <p>Lagos, Nigeria</p>
+      <p>Temperature: <span id="temp">27</span>&deg;C</p>
+      <p>Wind Speed: <span id="wind">10</span> km/h</p>
+      <p>Wind Chill: <span id="windchill"></span></p>
+      <img class="weather-icon-mobile" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Cloud-sun-svgrepo-com.svg" alt="partly cloudy icon" width="40" height="40" />
+    </section>
+
+    <section class="visit">
+      <h2>Why Visit</h2>
+      <ul>
+        <li>Vibrant markets and street food</li>
+        <li>Afrobeats music scene</li>
+        <li>Historic sites in Benin City and Osun-Osogbo Sacred Grove</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Nigeria Place Page</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+  </footer>
+</body>
+</html>
