@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nigeria | Place Page</title>
   <meta name="description" content="A page about Nigeria, its culture, and current weather conditions." />
+   <meta name="author" content="Ayomide Ayodeji">
   <link rel="stylesheet" href="styles/place.css" />
   <script src="scripts/place.js" defer></script>
 </head>
@@ -17,8 +18,8 @@
   <main>
     <section class="hero">
       <picture>
-        <source media="(min-width: 700px)" srcset="https://images.unsplash.com/photo-1611348586804-61bf6c080437?w=1200" />
-        <img src="https://images.unsplash.com/photo-1611348586804-61bf6c080437?w=600" alt="Lagos skyline, Nigeria" />
+        <source media="(min-width: 700px)" srcset="https://images.unsplash.com/photo-1611348586804-61bf6c080437?w=1200&fm=webp" />
+        <img src="https://images.unsplash.com/photo-1611348586804-61bf6c080437?w=600&fm=webp" alt="Lagos skyline, Nigeria" />
       </picture>
     </section>
 
@@ -37,7 +38,10 @@
       <p>Temperature: <span id="temp">27</span>&deg;C</p>
       <p>Wind Speed: <span id="wind">10</span> km/h</p>
       <p>Wind Chill: <span id="windchill"></span></p>
-      <img class="weather-icon-mobile" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Cloud-sun-svgrepo-com.svg" alt="partly cloudy icon" width="40" height="40" />
+      <svg class="weather-icon-mobile" width="40" height="40" viewBox="0 0 24 24" role="img" aria-label="partly cloudy icon">
+        <circle cx="9" cy="9" r="4" fill="#f4b400"/>
+        <path d="M6 16a4 4 0 010-8 5 5 0 019.9-1A4.5 4.5 0 0119 16H6z" fill="#8a97a8"/>
+      </svg>
     </section>
 
     <section class="visit">
