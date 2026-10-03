@@ -1,0 +1,17 @@
+:root { --main:#3b3a6b; --accent:#5a57a8; --text:#222; --bg:#f6f5fb; }
+* { box-sizing: border-box; }
+body { margin:0; font-family:'Montserrat',sans-serif; background:var(--bg); color:var(--text); }
+header { background:var(--main); color:#fff; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; padding:0.75rem 1rem; }
+.site-title { font-family:'Lato',sans-serif; font-size:1.6rem; font-weight:700; margin:0; }
+#menu { background:none; border:none; color:#fff; font-size:2rem; cursor:pointer; }
+nav { display:none; width:100%; flex-direction:column; }
+nav.open { display:flex; }
+nav a { color:#fff; text-decoration:none; padding:0.75rem 0; text-align:center; }
+nav a:hover { background:var(--accent); }
+main { max-width:1000px; margin:0 auto; padding:1rem; }
+h1 { text-align:center; }
+.gallery { display:grid; grid-template-columns:1fr; gap:1rem; }
+figure { margin:0; text-align:center; }
+figure img { width:100%; height:auto; display:block; border:1px solid #ccc; }
+figcaption { font-size:0.85rem; padding-top:0.4rem; }
+footer { background:var(--main); color:#fff; text-align:center; padding:1rem; }
