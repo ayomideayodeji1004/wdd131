@@ -15,3 +15,9 @@ figure { margin:0; text-align:center; }
 figure img { width:100%; height:auto; display:block; border:1px solid #ccc; }
 figcaption { font-size:0.85rem; padding-top:0.4rem; }
 footer { background:var(--main); color:#fff; text-align:center; padding:1rem; }
+@media (min-width: 700px) {
+  #nav {
+    display: flex;
+    gap: 1rem;
+  }
+}
