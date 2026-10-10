@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Post a review for a product you have installed.">
+  <meta name="author" content="Ayomide">
+  <meta name="description" content="Post a review for a product you have installed, including your rating, useful features, and comments.">
   <title>Product Review Form</title>
   <link rel="stylesheet" href="styles/form.css">
   <script src="scripts/form.js" defer></script>
@@ -24,13 +25,13 @@
         <div class="stars">
           <input type="radio" id="rate1" name="rating" value="1" required>
           <label for="rate1">1 &star;</label>
-          <input type="radio" id="rate2" name="rating" value="2">
+          <input type="radio" id="rate2" name="rating" value="2" required>
           <label for="rate2">2 &star;</label>
-          <input type="radio" id="rate3" name="rating" value="3">
+          <input type="radio" id="rate3" name="rating" value="3" required>
           <label for="rate3">3 &star;</label>
-          <input type="radio" id="rate4" name="rating" value="4">
+          <input type="radio" id="rate4" name="rating" value="4" required>
           <label for="rate4">4 &star;</label>
-          <input type="radio" id="rate5" name="rating" value="5">
+          <input type="radio" id="rate5" name="rating" value="5" required>
           <label for="rate5">5 &star;</label>
         </div>
       </fieldset>
@@ -68,7 +69,7 @@
     </form>
   </main>
   <footer>
-    <p>&copy; <span id="currentyear"></span> Ayomide Ayodeji, Nigeria</p>
+   <p>&copy; <span id="currentyear"></span> Ayomide Ayodeji, Nigeria</p>
         <p id="lastModified"></p>
   </footer>
 </body>
